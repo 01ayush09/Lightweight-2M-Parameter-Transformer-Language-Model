@@ -109,7 +109,7 @@ This project is released under the **MIT License**.
 ##  Contact
 
 For questions or collaboration, feel free to open an issue or pull request.  
-Happy experimenting with lightweight transformers! 🚀
+Happy experimenting with lightweight transformers! 
 
 Inspired by modern Transformer and LLaMA-style architectures, with a focus on learning through implementation.
 

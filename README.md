@@ -1,10 +1,10 @@
-# 📦 Lightweight 2M Parameter Transformer Language Model
+#  Lightweight 2M Parameter Transformer Language Model
 
 > A compact, efficient Transformer-based language model designed for minimal parameter count (~2 million parameters) while retaining core natural language generation capabilities.
 
 ---
 
-## 🧠 Project Overview
+##  Project Overview
 
 This repository implements a **lightweight transformer language model** with a total of **~2 million parameters**, focused on:
 
@@ -17,7 +17,7 @@ Unlike large LLMs with billions of parameters, this model emphasizes compact des
 
 ---
 
-## 📌 Key Highlights
+##  Key Highlights
 
 ### 🔹 Model Efficiency
 
@@ -37,23 +37,6 @@ These core transformer components allow the model to learn contextual representa
 
 ---
 
-## 🚀 Training the Model
-
-To train on a text dataset:
-
-```bash
-python train.py \
-    --data_path path/to/text_corpus.txt \
-    --epochs 10 \
-    --batch_size 64 \
-    --lr 1e-4 \
-    --save_model lightweight_model.pt
-```
-
-This will preprocess the corpus, train the transformer model, and save a trained checkpoint.
-
----
-
 ## ▶️ Generating Text
 
 After training, generate text using:
@@ -69,7 +52,7 @@ This runs autoregressive generation, producing coherent continuation from the pr
 
 ---
 
-## 📈 Performance & Use Cases
+##  Performance & Use Cases
 
 📌 The model is designed for:
 
@@ -82,7 +65,7 @@ Because it has only ~2 million parameters, it trades off raw performance for eff
 
 ---
 
-## 🧪 Example Output
+##  Example Output
 
 ```
 > Prompt: “The future of AI is”
@@ -93,7 +76,7 @@ The future of AI is connected to the data we gather and the models we train. As 
 
 ---
 
-## 📚 Background: Transformers
+##  Background: Transformers
 
 This project builds on the standard **Transformer architecture**, a neural network mechanism known for self-attention and parallel contextual learning. Transformers power most modern language models today, including large variants such as GPT and T5, but here scaled down for minimal footprint and educational use.
 
@@ -101,7 +84,7 @@ For detailed theory on transformer components like self-attention and positional
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! You can:
 
@@ -117,13 +100,13 @@ Feel free to propose improvements like:
 
 ---
 
-## 📜 License
+##  License
 
 This project is released under the **MIT License**.
 
 ---
 
-## 📬 Contact
+##  Contact
 
 For questions or collaboration, feel free to open an issue or pull request.  
 Happy experimenting with lightweight transformers! 🚀
